@@ -2,7 +2,7 @@
 This repository contains the implementation, experiments, and results of my project on Direct Memory Access (DMA) controller performance analysis using the PULP (Parallel Ultra-Low Power) platform. 
 The project focuses on evaluating DMA latency and throughput under varying memory transfer sizes, contributing to the optimization of low-power SoCs.
 
-📌 **Project Overview**
+**Project Overview**
 The DMA controller is a critical hardware block in modern SoCs, allowing memory-to-memory and peripheral-to-memory data transfers without continuous CPU intervention. This improves system efficiency and reduces power consumption.
 
 **This project investigates:**
