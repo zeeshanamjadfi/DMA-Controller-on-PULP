@@ -57,7 +57,7 @@ make run
 ### With Detailed GTK waveform
 ```bash
 # Run with VCD
-make run runner_args="--vcd"
+make clean all run runner_args="--vcd"
 ```
 
 ## Performance Results
