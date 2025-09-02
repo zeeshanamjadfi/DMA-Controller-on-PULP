@@ -22,12 +22,12 @@ This test performs chunked DMA transfers with simple data processing to validate
 
 ## Features
 
-- ✅ **Chunked Transfers**: Configurable chunk sizes for optimal performance
-- ✅ **Performance Monitoring**: Cycle counting and throughput calculation
-- ✅ **Data Verification**: Complete result validation
-- ✅ **Error Handling**: Comprehensive error checking and reporting
-- ✅ **Memory Management**: Automatic L1 allocation and cleanup
-- ✅ **Configurable Parameters**: Easy tuning of buffer sizes and chunk counts
+- **Chunked Transfers**: Configurable chunk sizes for optimal performance
+- **Performance Monitoring**: Cycle counting and throughput calculation
+- **Data Verification**: Complete result validation
+- **Error Handling**: Comprehensive error checking and reporting
+- **Memory Management**: Automatic L1 allocation and cleanup
+- **Configurable Parameters**: Easy tuning of buffer sizes and chunk counts
 
 ## Configuration
 
@@ -66,7 +66,7 @@ make run runner_args="--vcd"
 - **Execution Time**: 11,201 cycles (224.02 μs @ 50MHz)
 - **Throughput**: 18.29 MB/s (@ 50MHz)
 - **Efficiency**: 2.73 cycles/byte
-- **Status**: ✅ All tests passed
+- **Status**: All tests passed
 
 ### Performance Metrics
 | Configuration | Buffer Size | Cycles | Throughput |
